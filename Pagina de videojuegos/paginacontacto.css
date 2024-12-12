@@ -1,0 +1,87 @@
+/* Sección de contacto */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .btn {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form .btn:hover {
+    background-color: #008c9e;
+    
+  }
+  /*Menu de navegación*/
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    top: 0;
+
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+  }
